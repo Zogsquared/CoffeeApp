@@ -1,12 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Main.quickBitesList">
+             x:Class="Main.quickBitesList"
+             Title="Quick Bites">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame BackgroundColor="LightGray" Padding="0" Margin="0, 6, 0, 0" CornerRadius="0">
+                <FlexLayout>
+                    <Image Source="content1.png" HeightRequest="150" HorizontalOptions="Start"></Image>
+                    <StackLayout>
+                    <Label Text="Bagel" TextColor="Black" FontSize="20" Padding="10, 5"></Label>
+                    <Label Text="Freshly baked each morning" FontSize="10" TextColor="Black" Padding="10, 5"/>
+                        
+                    </StackLayout>
+                    <Label Text="$1.50" FontSize="18" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Padding="0, 120, 0, 0" TextColor="Black"/>
+                </FlexLayout>
+                
+            </Frame>
+
+            <Frame BackgroundColor="LightGray" Padding="0" Margin="0, 6, 0, 0" CornerRadius="0">
+                <FlexLayout>
+                    <Image Source="content2.png" HeightRequest="150" HorizontalOptions="Start"></Image>
+                    <StackLayout>
+                        <Label Text="Eggs Benny" TextColor="Black" FontSize="20" Padding="10, 5"></Label>
+                        <Label Text="Poached eggs over bacon &#10;served by the great Arry &#10;chan" FontSize="10" TextColor="Black" Padding="10, 5"/>
+
+                    </StackLayout>
+                    <Label Text="$6.50" FontSize="18" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" Padding="0, 120, 0, 0" TextColor="Black"/>
+                </FlexLayout>
+
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

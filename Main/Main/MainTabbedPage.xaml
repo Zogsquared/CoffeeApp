@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Main.MainTabbedPage">
+             x:Class="Main.MainTabbedPage"
+                NavigationPage.HasNavigationBar="False">
   <!--Pages can be added as references or inline-->
     <ContentPage Title="MENU" >
         <StackLayout>
@@ -34,6 +35,11 @@
             <Label Text="4A Kent Street &#10;Newmarket &#10;Auckland &#10;1023" TextColor="White" FontSize="15" Padding="25, 10"></Label>
             <Label Text="+64 9 444 5555" TextColor="White" FontSize="15" Padding="25, 10"></Label>
             <Label Text="info@julescafe.co.nz" TextColor="White" FontSize="15" Padding="25, 10"></Label>
+            <FlexLayout Padding="25, 10">
+                <Image Source="unnamed.png" HeightRequest="50" />
+                <Label Padding="10"/>
+                <Image Source="insta.png" HeightRequest="50" />
+            </FlexLayout>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="MAP" >

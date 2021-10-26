@@ -576,3 +576,7 @@ D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\stamp\_GeneratePackageManage
 D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\res\drawable\content.png
 D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\res\drawable\coverart.jfif
+D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\res\drawable\content2.png
+D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\res\drawable\content1.png
+D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\res\drawable\insta.png
+D:\Github\CoffeeApp\Main\Main.Android\obj\Debug\110\res\drawable\unnamed.png
