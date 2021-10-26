@@ -27,6 +27,18 @@
 
         </StackLayout>
     </ContentPage>
-    <ContentPage Title="ABOUT" />
-  <ContentPage Title="MAP" />
+    <ContentPage Title="ABOUT" >
+        <StackLayout>
+            <Image Source="coverart.jfif"></Image>
+            <Label Text="Jules Cafe" TextColor="White" FontSize="38" Padding="25, 10"></Label>
+            <Label Text="4A Kent Street &#10;Newmarket &#10;Auckland &#10;1023" TextColor="White" FontSize="15" Padding="25, 10"></Label>
+            <Label Text="+64 9 444 5555" TextColor="White" FontSize="15" Padding="25, 10"></Label>
+            <Label Text="info@julescafe.co.nz" TextColor="White" FontSize="15" Padding="25, 10"></Label>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="MAP" >
+        <StackLayout>
+            <WebView x:Name="mapWebView" Source="https://mobile.here.com/p/h-aHR0cHM6Ly9wbGFjZXMuYXBpLmhlcmUuY29tL3BsYWNlcy92MS9wbGFjZXMvbG9jLWRtVnljMmx2YmoweE8zUnBkR3hsUFRSaEswdGxiblFyVTNRN2JHRnVaejFsYmp0c1lYUTlMVE0yTGpnMk56azFNRFF6T1RRMU16RXlOVHRzYjI0OU1UYzBMamMzTmpjd01qZzRNRGcxT1RNNE8zTjBjbVZsZEQxTFpXNTBLMU4wTzJodmRYTmxQVFJoTzJOcGRIazlRWFZqYTJ4aGJtUTdjRzl6ZEdGc1EyOWtaVDB4TURJek8yTnZkVzUwY25rOVRscE1PMlJwYzNSeWFXTjBQVTVsZDIxaGNtdGxkRHR6ZEdGMFpUMUJkV05yYkdGdVpEdGpiM1Z1ZEhrOVFYVmphMnhoYm1RclEybDBlVHRqWVhSbFoyOXllVWxrUFdKMWFXeGthVzVuTzNOdmRYSmpaVk41YzNSbGJUMXBiblJsY201aGJEdHViR0YwUFMwek5pNDROamd4Tnprek1qRXlPRGt3Tmp0dWJHOXVQVEUzTkM0M056WTJOREU0TkRVM01ETXhNanR3WkhORFlYUmxaMjl5ZVVsa1BUa3dNQzA1TXpBd0xUQXdNREE7Y29udGV4dD1abXh2ZHkxcFpEMHdaV1JoTUdJeE15MWlZekV4TFRVMU1UUXRZVEptT1MwM05UZzBPRE13WkdVMlpEQmZNVFl6TlRJNE16STFNamt3TTE4MU1qYzBYekV6T0NaeVlXNXJQVEE%252FYXBwX2lkPTNLSVFsczJEU0tsTldmZGFzcEI5JmFwcF9jb2RlPWYydkRuMVRVWUVWbjRrWXR3SzM3eXc%253D?msg=4a%20Kent%20St" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Main.EspressoList">
+             x:Class="Main.EspressoList"
+             Title="Espresso">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Espresso"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame BackgroundColor="LightGray" Padding="0" Margin="0, 6, 0, 0" CornerRadius="0">
+                <Button Text="Cafe Americano        $2.50" HorizontalOptions="StartAndExpand" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Padding="20"></Button>
+            </Frame>
+            <Frame BackgroundColor="LightGray" Padding="0" Margin="0, 0, 0, 0" CornerRadius="0">
+                <Button Text="Cafe Latte                   $3.00" HorizontalOptions="StartAndExpand" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Padding="20"></Button>
+            </Frame>
+            <Frame BackgroundColor="LightGray" Padding="0" Margin="0, 0, 0, 0" CornerRadius="0">
+                <Button Text="Cappucino                   $3.50" HorizontalOptions="StartAndExpand" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Padding="20"></Button>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
