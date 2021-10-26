@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Main.MainTabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="MENU" >
+        <StackLayout>
+            <Frame BackgroundColor="#292a2f" Padding="24" CornerRadius="0">
+                <Image Source="content.png"></Image>
+            </Frame>
+
+            <Frame BackgroundColor="LightGray" Padding="0" CornerRadius="0">
+                <Button x:Name="espresso" Text="Espresso" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Padding="20" Clicked="espresso_Clicked"></Button>
+            </Frame>
+
+            <Frame BackgroundColor="LightGray" Padding="0" CornerRadius="0">
+                <Button x:Name="hotDrinks" Text="Hot Drinks" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Padding="20" Clicked="hotDrinks_Clicked"></Button>
+            </Frame>
+
+            <Frame BackgroundColor="LightGray" Padding="0" CornerRadius="0">
+                <Button x:Name="coldDrinks" Text="Cold Drinks" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Padding="20" Clicked="coldDrinks_Clicked"></Button>
+            </Frame>
+
+            <Frame BackgroundColor="LightGray" Padding="0" CornerRadius="0">
+                <Button x:Name="quickBites" Text="Quick Bites" TextColor="Black" BackgroundColor="Transparent" FontSize="20" Padding="20" Clicked="quickBites_Clicked"></Button>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="ABOUT" />
+  <ContentPage Title="MAP" />
+</TabbedPage>
