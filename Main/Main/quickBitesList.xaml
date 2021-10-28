@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Main.quickBitesList"
-             Title="Quick Bites">
+             Title="Quick Bites"
+             BackgroundColor="DimGray">
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor="LightGray" Padding="0" Margin="0, 6, 0, 0" CornerRadius="0">

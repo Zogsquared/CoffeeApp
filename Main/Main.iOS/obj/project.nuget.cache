@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/z/cjez0W7aqlZXca4koUs1I1h0PlF9jGRzShd0Bs6oqOPaZGEuYAW4Mbnwzt0wGjmWdPg5eayt879+/OErWpQ==",
+  "dgSpecHash": "J0JgB3uLsXFNqeRDcN+2aoIPLVFJq7wCC4zUzX8Bx+KLbsWfic/IoKpvQy4BgEqIfUSfEk716tC1wkTxsm1AjA==",
   "success": true,
   "projectFilePath": "D:\\Github\\CoffeeApp\\Main\\Main.iOS\\Main.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\shutm\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
